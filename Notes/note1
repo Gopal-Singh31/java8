@@ -1,0 +1,39 @@
+How to change a default Eclipse folder project to an Eclipse Java project
+
+First close the project in Eclipse (right-click project folder > close project)
+Open the .project file in a text-editor outside Eclipse
+Add the Java builder and nature to the .project file
+Save and close file
+Open project in Eclipse and it now is a Java project
+
+below is code :
+
+exiting .project file
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>A project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+</projectDescription>
+
+modified  .project file
+
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>A project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+
+</projectDescription>
