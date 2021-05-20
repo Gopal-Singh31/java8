@@ -1,0 +1,157 @@
+
+Class Employee {
+private int empId;
+private String empName;
+private String address;
+private long salary;
+
+public int getEmpId(){
+	return empId;
+}
+publuc void setEmpId(int empId){
+this.empId =empId;
+}
+public int getEmpName(){
+	return empName;
+}
+publuc void setEmpName(int empName){
+this.empName =empName;
+}
+public int getAddress(){
+	return address;
+}
+publuc void setEmpId(int address){
+this.address =address;
+}
+public int getSalary(){
+	return salary;
+}
+publuc void setEmpId(int salary){
+this.salary =salary;
+}
+
+public boolean equals(Object obj){
+if(this==obj){
+return true;
+}
+
+if(obj==null || obj.getClass() !=this.getClass()){
+retrun false;
+}
+Employee employee = obj;
+}
+
+
+}
+
+method1 
+medtho2
+
+
+
+method2
+medtid
+
+
+join()
+
+
+priorityqueue 
+
+int [] array ={110,100,404,104,105,90 80,60 ,70,30,20, 25};
+
+
+int[] leaderNumber  ;
+int k =0;
+boolean isLeader= false;
+for(int i = 0;i<=array.length;i++){
+	for(int j =1;j<array.length;j++)
+		if(array[i] > array[j]){
+		 
+		 }else{
+			break;
+		 }
+		
+if(isLeader){
+leaderNumber[k] = array[i];
+		 k++;
+}		
+	}
+}
+
+Employee  who are more than 1 dept   depatemnt  
+dept
+
+select employeeName ,Count(deptId) from  Employee 
+group by deptid 
+having count(deptId) >1
+
+
+post http://localhost:8080/climate
+
+{
+"city" :
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

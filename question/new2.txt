@@ -1,0 +1,27 @@
+
+write aprogram list of employee obejct and name ,salary , address, 
+want name of employee from employe object with salary > 30000
+
+
+List<String> nameOfEmp =  listOfEmployee.stream().map(Employee :: getName)
+												.filter(salary -> salary>30000)
+												.collect(Collections.toList())
+												
+												
+remove all duplciats from the List<string>
+["A","b","A"]
+
+A-2
+B-1
+
+
+
+listString 
+
+Map<String , Integer> map = new HashMap<>();
+
+for(String s : listOf)
+
+
+
+															

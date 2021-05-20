@@ -1,0 +1,34 @@
+employeee 
+
+id 
+name 
+salary
+
+find it avg salary
+
+
+   listEmployee.stream().mapToDouble(Employee :: getSalary).avg().getDouble();
+   
+   
+   string str="abc ffrtcd*sri"
+
+  Map<Character, Interger>  mapCount = new Hashmap<>();
+	str = str.trim();
+	
+	String[] splitString = str.split("*");
+	String concateString = null;
+	for(int i =0; i<splitString.length;i++){
+		concateString +=splitString[i];
+	}
+	if(concateString !=null){
+	char[] ch = concateString.toCharArray();
+	for(Char c : ch){
+		if(mapCount.getContainsKey(c)){
+		 mapcount.put(c,mapCount.getValue(c)+1)
+		}else{
+			mapCount.put(c,1);
+		}
+	}
+	System.out.println(mapCount)
+	
+	

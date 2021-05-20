@@ -1,0 +1,158 @@
+[5,8,9,8,5,7,6]
+
+5 -2
+8 -2
+9 -1
+7 -1
+6 -1
+
+5-2 , 6-1,7-1,
+
+
+int[] arrayint = [5,8,9,8,5,7,6];
+
+Map<Integer ,Integer> map = new HashMap<>();
+for(int value : arrayint){
+if(map.get(value) !=value){
+map.put(value , map.get(value)+1);
+}else{
+map.put(value, 1);
+}
+}
+//sort
+
+for(Set<Entry<Integer>> value : map.keySet()){
+int repeatedvalue =0;
+if(map.getValue(value) >1){
+repeatedvalue = map.getKey();
+break;
+}
+}
+
+
+===========================================
+
+Class Singletone implements Serializable{
+
+public static 
+
+private static Singletone singletone_variable;
+private Singletone(){
+}
+public Singletone getSingletone() thorws CloneNotSupportedExcetion{
+if(singletone_variable == null){
+singletone_variable = new Singletone();
+}
+}
+return singletone_variable;
+
+
+
+}
+
+=========================================
+
+
+
+Employee e1= new Employee("gopal", 29)
+Employee e2= new Employee("gopal", 29)
+sysout(e1.equals(e2))   // false
+
+Map map = null;
+add(value)
+{
+map = HashMap<>();
+map.put(value , "PRESENT")
+
+}
+Stack 
+==============================
+
+difference between hashtable & concureent hashmap
+how to works internal hashset
+what is significate of hashcode & equals method
+Singletone all scenario
+
+hwo to configure transaction
+
+
+
+
+
+private id 
+name 
+age
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

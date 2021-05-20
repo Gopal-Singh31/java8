@@ -1,0 +1,28 @@
+
+
+int[] intArray ={2,5,1,4,5,2,4};
+
+List<Integer> list = Arrays.toList(intArray);
+Collections.sort(list);
+Map<Interger , Integer> mapInterger = new HashMap<>();
+for(Integer value : list){
+	if(mapInterger.containsKey(value)){
+		mapInterger.put(value, mapInterger.get(value) +1);
+	}else{
+		mapInterger.put(value,1);
+	}
+}
+Entry<Integer,Integer> entrySet = mapInterger.entrySet();
+
+
+for(){
+
+}
+
+for(int i=0; i<){
+
+}
+
+select id ,name  from  (Select id ,name from employee where (id%2) =1)
+
+
